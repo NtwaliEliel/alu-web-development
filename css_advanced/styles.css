@@ -1,0 +1,451 @@
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(source-sans-pro/SourceSansPro-Bold.otf);
+}
+@font-face {
+    font-family: SourceSansPro-Light;
+    src: url(source-sans-pro/SourceSansPro-Light.otf);
+}
+@font-face {
+    font-family: SourceSansPro-Italic;
+    src: url(source-sans-pro/SourceSansPro-It.otf);
+}
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(source-sans-pro/SourceSansPro-Regular.otf);
+}
+@font-face {
+    font-family: SourceSansPro-SemiBold;
+    src: url(source-sans-pro/SourceSansPro-Semibold.otf);
+}
+
+body {
+    background-image: url("background (2).png");
+    background-size: 100%;
+}
+.logo {
+    display: block;
+    float: left;
+    padding-left: 7em;
+    margin-top: -100px;
+}
+
+.menu {
+    float: right;
+    padding-right: 10em;
+    margin-top: -50px;
+    font-family: SourceSansPro-bold;
+    font-size: 12px;
+    color: white;
+}
+
+.pricing {
+    padding: 3em;
+}
+
+.title {
+    font-family: SourceSansPro-Bold;
+    font-size: 105px;
+    padding-top: 105px;
+    text-align: center;
+    color: white;
+
+}
+.Hc {
+    margin-top: -6rem;
+    width: 100%;
+    font-size: 13.5px;
+    color: white;
+    font-family: SourceSansPro-bold;
+}
+
+.Hc-2 {
+    padding: 50px;
+}
+
+FH, button {
+    width: 145px;
+    height: 38px;
+    margin-left: 35rem;
+    margin-top: 2rem;
+    border-radius: 25px;
+    border: 0px;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    box-shadow: 0px 0px 18px #404040;
+    font-size: 11px;
+}
+.sT {
+    color: #C271FF;
+    font-family: SourceSansPro-Bold;
+    font-size: 25px;
+    margin-left: 34rem;
+    margin-top: 9rem;
+}
+.b {
+    color: #FFFFFF;
+    font-family: SourceSansPro-light;
+}
+/*
+====================================================
+PROS SET-UP
+====================================================
+*/
+.pros {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-left: 9rem;
+
+}
+.pros, img {
+    max-height: 150px;
+    max-width: 150px;
+    margin-top: 50px;
+}
+.pros, h3 {
+    font-family: SourceSansPro-Bold;
+    height: 12.5px;
+    margin-top: 1.5px;
+    color: white;
+}
+.pros, p {
+    font-family: SourceSansPro-Italic;
+    text-align: center;
+    color: white;
+}
+
+.p1 {
+    padding-right: 7.5rem;
+}
+.p2 {
+    padding-right: 7.5rem;
+}
+.p3 {
+    padding-right: 7.5rem;
+}
+.p4 {
+    padding-right: 7.5rem;
+}
+
+/*
+========================================================
+QOUTE-SET UP
+========================================================
+ */
+
+.Quote {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #C271FF;
+    background-size: 100%;
+    margin-top: 21rem;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding-left: 12.5rem;
+}
+
+.Q-left {
+    float: left;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.Q-right {
+    color: white;
+    padding-top: 4.2rem;
+    padding-bottom: 4.5rem;
+    width: 82%;
+    align-items: left;
+}
+blockquote {
+    font-family: SourceSansPro-Regular;
+    font-size: 21.5px;
+}
+
+.pQ {
+    text-align: left;
+    font-size: 20px;
+}
+
+/*
+======================================================
+VIDEOS
+======================================================
+ */
+
+/*GENERAL VID SET_UP*/
+.Videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+.Vids {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-top: -20px;
+}
+/*VID HEAD SET-UP*/
+.Videos, h1 {
+    font-family: SourceSansPro-Light;
+}
+.VTB {
+    font-family: SourceSansPro-Bold;
+    color: #C271FF;
+}
+/*VID SET-UP*/
+.v1 {
+    width: 265px;
+}
+.v2 {
+    width: 265px;
+}
+.v3 {
+    width: 265px;
+}
+.v4 {
+    width: 265px;
+}
+.Vi-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.v-3play {
+    position: absolute;
+    max-width: 64px;
+    max-height: 64px;
+}
+.v-img {
+    max-width: 235px;
+    max-height: 165px;
+}
+
+.V-h2 {
+    font-family: SourceSansPro-Bold;
+    font-size: 15px;
+    padding-left: 22px;
+}
+.v-p {
+    color: grey;
+    font-size: 13px;
+    width: 235px;
+    text-align: left;
+    padding-left: 22px;
+    font-family: SourceSansPro-Regular;
+}
+.V-h3 {
+    font-family: SourceSansPro-SemiBold;
+    font-size: 13px;
+    color: #C271FF;
+}
+.V-ex {
+    display: flex;
+    flex-direction: row;
+    padding-left: 22px;
+}
+.V-ex-img {
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    padding-right: 12px;
+    align-items: center;
+}
+.V-star {
+    width: 15px;
+    height: 15px;
+    margin-top: 0;
+    padding: 2.5px;
+}
+.V-rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 4.5rem;
+    padding-left: 22px;
+}
+
+/*
+=============================================================
+MEMBERSHIP SET_UP
+=============================================================
+*/
+.membership {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #071629;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.m-h1 {
+    margin: 40px;
+    font-family: SourceSansPro-light;
+    font-size: 28px;
+    color: white;
+}
+.MBB {
+    font-family: SourceSansPro-Bold;
+    color: #C271FF;
+}
+.members {
+    display: flex;
+    flex-direction: row;
+}
+.m1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 245px;
+    height: 150px;
+}
+.m2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 245px;
+    height: 150px;
+}
+.m3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 245px;
+    height: 150px;
+}
+.m4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 245px;
+    height: 150px;
+}
+.m-img {
+    max-height: 35.35px;
+    max-width: 43.67px;
+    margin-top: 15px;
+}
+.m-h2 {
+    color: white;
+    font-family: SourceSansPro-SemiBold;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.m-p{
+    color: white;
+    font-family: SourceSansPro-Regular;
+    font-size: 13px;
+    width: 180px;
+    margin-top: 5px;
+}
+.m-btn {
+    margin: 42px
+}
+
+/*
+====================================================================
+FAQ-SETUP
+====================================================================
+ */
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    margin-right: -8px;
+    margin-left: -8px;
+    place-items: center;
+    background-color: white;
+}
+.f-h1 {
+    font-family: SourceSansPro-Light;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.f-block {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 920px;
+    height: 580px;
+}
+.row-1 {
+    display: flex;
+    flex-direction: row;
+}
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.r-1-c-1 {
+    width: 320px;
+    height: 150px;
+    text-align: left;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.r-1-c-2 {
+    width: 320px;
+    height: 150px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.r-2-c-1 {
+    width: 320px;
+    height: 150px;
+    text-align: left;
+    padding-right: 100px;
+    padding-top: 85px;
+}
+.r-2-c-2 {
+    width: 320px;
+    height: 150px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 85px;
+}
+.f-h2 {
+    font-family: SourceSansPro-bold;
+    font-size: 15px;
+}
+.f-p {
+    font-family: SourceSansPro-Regular;
+    font-size: 13px;
+    color: grey;
+    text-align: left;
+}
+
+/*
+==========================================================
+FOOTER SET-UP
+==========================================================
+ */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #071629;
+    margin: -8px;
+}
+.f-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.f-logo {
+    margin-left: 120px;
+}
+.f-SM {
+    margin-right: 120px;
+}
